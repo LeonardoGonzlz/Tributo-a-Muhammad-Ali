@@ -1,0 +1,86 @@
+*:not(::after,::before){
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EaEaEa;
+  margin: 0;
+  text-align: justify;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  
+}
+
+header{
+  background-color: #FFDE00;
+  text-align: center; 
+  padding: 1px;
+}
+
+h1{
+  color: #D2001A;
+  font-weight: 700;
+  font-size: min(10vh, 12vw);
+  
+}
+
+header p{
+  font-size: min(3vh, 4vw);
+}
+
+figure{
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption{
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+h2{
+  margin-inline: -4%;
+  font-size: min(7vh, 10vw);
+  font-weight: 700;
+}
+
+
+#tribute-info{
+  max-width: 700px;
+  padding: 0px 8%;
+  margin:  0 auto;
+  margin-bottom: 2rem;
+}
+
+#tribute-info p{
+  margin: 0;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#enlace{
+  background: #FFDE00;
+  color: black;
+  padding: 2px;
+  margin-bottom: -20px;
+  text-align: center;
+  font-size: 14px;
+}
+a{
+  color: #D2001A;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+a:hover{
+  border-bottom: solid 2px #D2001A;
+}
